@@ -17,4 +17,5 @@ setup(name="encrypto_auth",
         author="Dada Clement Authority",
         author_email="dadaauthourity23@gmail.com",
         ext_modules=[my_extension],
+        options={'build_ext': {'plat_name': 'linux_i686'}},
         )
